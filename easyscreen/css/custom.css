@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900);
+
+body {
+  background: #deded4;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #333;
+}
+
+.filter-overlay {
+  display: none;
+}
+
+.event-details .c3,
+.event-details .c2 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#Header {
+  height: 300px;
+}
+
+#Header .text {
+  color: #006666 !important;
+  margin-top: 160px;
+  margin-left: 5%;
+  text-indent: -9000px;
+  display: block;
+  width: 250px;
+  height: 49px;
+  background: url('../../img/varbib-logo.png');
+}
+
+.simple-tpl .item-data,
+.single-ct-container,
+.sliders-div > .section-container:first-child + .section-container.column3 {
+  height: 1100px !important;
+}
+
+.single-ct-container {
+  margin-top: 110px;
+}
+
+.carousel-tpl .date, .simple-tpl .header .date-time, .carousel-tpl .date-time {
+  float: none;
+}
+
+.simple-tpl .header, .carousel-tpl .header,
+.simple-tpl .item-data .body {
+  position: relative;
+  top: 0;
+}
+
+.nodelist-title {
+  margin-top: 40px;
+}
+
+.simple-tpl .header p.category, .carousel-tpl .category {
+  margin-top: 65px;
+}
+
+.carousel-tpl .date, .simple-tpl .header .date-time, .carousel-tpl .date-time {
+  margin-top: 85px;
+  width: 300px;
+}
+
+.single-ct-container .title, .carousel-tpl .title {
+  margin-top: 90px;
+}
+
+.single-ct-container .teaser {
+  margin-top: 80px;
+}
+
+.single-ct-container .image {
+  width: auto;
+  max-width: 350%;
+  height: 1100px;
+}
+
+.count-down-bar-bg,
+.text-and-image .title,
+.simple-tpl .header p.category,
+.carousel-tpl .category,
+.single-ct-container .title,
+.carousel-tpl .title,
+.art-popup-tpl .category p,
+#SlidersDiv .ui-accordion-header {
+  background: #1f9997;
+}
+
+.count-down-bar,
+.simple-tpl p.readMore,
+.carousel-tpl p.readMore {
+  background: #1f9999;
+}
+
+.count-down-bar-bg,
+.text-and-image .title,
+.simple-tpl .header p.category,
+.carousel-tpl .category,
+.single-ct-container .title,
+.carousel-tpl .title,
+.art-popup-tpl .category p,
+#SlidersDiv .ui-accordion-header {
+  background: #116665;
+}
+
+.count-down-bar, .simple-tpl p.readMore, .carousel-tpl p.readMore {
+  background: #116665;
+}
+
+.sliders-div > .section-container:first-child + .section-container.column3 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.article-view-body {
+  width: 90%;
+}
+
+#ArticlePopup .image-wrapper-inner {
+  width: 100%;
+  height: 540px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 50px;
+}
+
+#ArticlePopup .image-wrapper-inner img {
+  width: 100% !important;
+  height: auto;
+  position: absolute;
+}
+
+.art-popup-tpl h1.title {
+  background: #116665;
+  color: #fff;
+  font-size: 46px;
+  display: inline-block;
+  padding: 3px 7px;
+  margin-top: 50px;
+}
+
+.art-popup-tpl div.body {
+  padding-left: 0;
+}
+
+.art-popup-tpl .content-wrapper p,
+.art-popup-tpl .content-wrapper .bodyContent,
+.art-popup-tpl .content-wrapper .bodyContent p {
+  margin-bottom: 45px;
+  line-height: 35px !important;
+}
+
+.art-popup-tpl .date {
+  padding: 8px 10px;
+  border: 4px solid #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  font-size: 30px;
+}
+
+.events-page-header .pagination {
+  position: absolute;
+  right: 0px;
+  top: -50px;
+}
+
+.events-page-header .pagination a {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  border-radius: 20px;
+  background: #787878;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.events-page-header .pagination a.active {
+  background: #116665;
+}
+
+.events-day-title {
+  background: url("../../img/grey-p.png") repeat !important; /* Grey transparent bg */
+  margin-top: 50px;
+  padding: 0 7px;
+}
+
+.events-list {
+  position: relative;
+}
+
+.column3 .event-details .c4 {
+  width: 35%;
+}
+
+.column3 .event-details .c3 {
+  width: 35%;
+}
+
+.event-details .c1 {
+  line-height: 42px;
+}
+
+.simple-tpl .header p.category,
+.carousel-tpl .category {
+  font-size: 32px;
+}
+
+.single-ct-container .title,
+.carousel-tpl .title {
+  font-size: 46px;
+}
