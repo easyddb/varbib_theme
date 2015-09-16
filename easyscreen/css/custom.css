@@ -67,7 +67,8 @@ body {
   margin-top: 90px;
 }
 
-.single-ct-container .teaser {
+.single-ct-container .teaser,
+.section-container .carousel-ct-bodycontent .teaser {
   margin-top: 80px;
 }
 
@@ -215,4 +216,22 @@ body {
 .single-ct-container .title,
 .carousel-tpl .title {
   font-size: 46px;
+}
+
+.carousel-tpl p.readMore {
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px;
+  margin: 80px 0 0 0;
+}
+
+.section-container  .carousel-ct-container .title {
+  background: #116665 !important;
+  display: inline-block;
+  font-weight: bold;
+  padding: 3px 5px;;
+}
+
+.section-container .carousel-ct-bodycontent.active {
+  height: 1000px !important;
 }
