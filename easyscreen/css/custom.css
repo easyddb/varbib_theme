@@ -173,6 +173,10 @@ body {
   font-size: 30px;
 }
 
+.art-popup-tpl .date-time.empty {
+  display: none;
+}
+
 .art-popup-tpl .date-time .event-date,
 .art-popup-tpl .date-time .event-time {
   font-family: Verdana, Arial, sans-serif;
