@@ -278,3 +278,10 @@ body {
 .section-container .carousel-ct-bodycontent.active {
   height: 1000px !important;
 }
+
+.single-ct-container .teaser,
+.section-container .carousel-ct-bodycontent .teaser {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 46px;
+}
