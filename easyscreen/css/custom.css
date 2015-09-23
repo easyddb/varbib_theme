@@ -180,6 +180,7 @@ body {
 .art-popup-tpl .date-time .event-date,
 .art-popup-tpl .date-time .event-time {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .art-popup-tpl .date-time.empty {
