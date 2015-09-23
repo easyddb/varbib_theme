@@ -40,14 +40,12 @@ body {
   margin-top: 110px;
 }
 
-.carousel-tpl .date, .simple-tpl .header .date-time, .carousel-tpl .date-time {
-  float: none;
-}
-
-.simple-tpl .header, .carousel-tpl .header,
+.simple-tpl .header,
+.carousel-tpl .header,
 .simple-tpl .item-data .body {
   position: relative;
   top: 0;
+  overflow: hidden;
 }
 
 .nodelist-title {
@@ -58,9 +56,11 @@ body {
   margin-top: 65px;
 }
 
-.carousel-tpl .date, .simple-tpl .header .date-time, .carousel-tpl .date-time {
+.carousel-tpl .date,
+.simple-tpl .header .date-time,
+.carousel-tpl .date-time {
   margin-top: 85px;
-  width: 450px;
+  float: left;
 }
 
 .single-ct-container .title, .carousel-tpl .title {
@@ -173,6 +173,15 @@ body {
   font-size: 30px;
 }
 
+.simple-tpl .header p.event-time,
+.simple-tpl .header p.event-date,
+.carousel-tpl .header p.event-time,
+.carousel-tpl .header p.event-date,
+.art-popup-tpl .date-time .event-date,
+.art-popup-tpl .date-time .event-time {
+  display: inline-block;
+}
+
 .art-popup-tpl .date-time.empty {
   display: none;
 }
@@ -239,6 +248,12 @@ body {
 .simple-tpl .header p.category,
 .carousel-tpl .category {
   font-size: 32px;
+}
+
+.simple-tpl .header .category-wrapper,
+.carousel-tpl .header .category-wrapper {
+  display: block;
+  clear: both;
 }
 
 .single-ct-container .title,
