@@ -286,3 +286,8 @@ body {
   font-weight: bold;
   line-height: 46px;
 }
+
+.carousel-tpl p.readMore,
+.simple-tpl p.readMore {
+  display: none;
+}
